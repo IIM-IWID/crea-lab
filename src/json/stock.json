@@ -1,0 +1,34 @@
+{
+  "cards": [
+    {
+      "title": "produit 1",
+      "description": "description 1",
+      "stock": 12
+    },
+    {
+      "title": "produit 2",
+      "description": "description 2",
+      "stock": 25
+    },
+    {
+      "title": "produit 3",
+      "description": "description 3",
+      "stock": 2
+    },
+    {
+      "title": "produit 4",
+      "description": "description 4",
+      "stock": 0
+    },
+    {
+      "title": "produit 5",
+      "description": "description 5",
+      "stock": 67
+    },
+    {
+      "title": "produit 6",
+      "description": "description 6",
+      "stock": 1
+    }
+  ]
+}
