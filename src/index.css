@@ -78,3 +78,8 @@ span {
     @apply bg-background text-foreground;
   }
 }
+
+.sx-react-calendar-wrapper {
+  width: 95vw;
+  height: 85vh;
+}
