@@ -141,7 +141,7 @@ const Calendar = () => {
   };
 
   return (
-    <main className="flex justify-center h-screen pt-20 bg-white">
+    <main className="flex justify-center h-screen pt-5 bg-white">
       <div className='flex flex-col items-end'>
         <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
             <DialogTrigger asChild>
