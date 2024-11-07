@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
   Carousel,
   CarouselContent,
@@ -10,6 +10,8 @@ import json from "../json/project.json";
 import { CardProjectComponent } from "../components/card-project.tsx";
 
 const Project = () => {
+  const [view, setView] = useState<boolean>(false);
+
   return (
     <main className="p-6">
       <p className="text-center mb-12 text-2xl">Top projets</p>
@@ -34,7 +36,20 @@ const Project = () => {
       <p className="text-center mb-12 text-xl my-12">All projects</p>
       <div className="grid grid-cols-4 gap-4">
         {json.project.map((element: any) => (
-          <CardProjectComponent title={element.title} author={element.author} />
+          <div
+            onClick={() => {
+              if (!view) {
+                setView(true);
+              }
+            }}
+          >
+            <CardProjectComponent
+              className="hover:scale-105 duration-75 transition ease-linear cursor-pointer"
+              title={element.title}
+              author={element.author}
+              request={element.request}
+            />
+          </div>
         ))}
       </div>
     </main>

@@ -2,35 +2,43 @@
   "project": [
     {
       "title": "projet 1",
-      "author": "john doe"
+      "author": "john doe",
+      "request": false
     },
     {
       "title": "projet 2",
-      "author": "john doe"
+      "author": "john doe",
+      "request": false
     },
     {
       "title": "projet 3",
-      "author": "john doe"
+      "author": "john doe",
+      "request": true
     },
     {
       "title": "projet 4",
-      "author": "john doe"
+      "author": "john doe",
+      "request": false
     },
     {
       "title": "projet 5",
-      "author": "john doe"
+      "author": "john doe",
+      "request": false
     },
     {
       "title": "projet 6",
-      "author": "john doe"
+      "author": "john doe",
+      "request": false
     },
     {
       "title": "projet 7",
-      "author": "john doe"
+      "author": "john doe",
+      "request": true
     },
     {
       "title": "projet 8",
-      "author": "john doe"
+      "author": "john doe",
+      "request": false
     }
   ]
 }
